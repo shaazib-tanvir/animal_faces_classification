@@ -59,5 +59,5 @@ if __name__ == "__main__":
         print(f"\033[34mEpoch\033[0m {epoch}")
         print("="*20)
         train(train_dataloader, model, lossfn, optimizer)
-        test(test_dataloader, model, lossfn)
+        test(test_dataloader, model)
         print("="*20)
